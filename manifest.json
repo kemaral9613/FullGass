@@ -1,12 +1,14 @@
 {
   "name": "FuelTrack Pro",
   "short_name": "FuelTrack",
+  "description": "Control de combustible y gastos de vehículo con análisis IA. Registra recargas, calcula eficiencia y visualiza estadísticas detalladas.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#16a34a",
   "orientation": "portrait-primary",
   "scope": "./",
+  "categories": ["finance", "productivity", "utilities"],
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/481/481233.png",
@@ -19,6 +21,22 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1554744512-d6c603f27c54?auto=format&fit=crop&w=800&q=80",
+      "sizes": "800x600",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Dashboard de Análisis"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1554744512-d6c603f27c54?auto=format&fit=crop&w=400&h=800&q=80",
+      "sizes": "400x800",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Vista Móvil"
     }
   ]
 }
