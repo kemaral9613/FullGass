@@ -1,7 +1,7 @@
 
 import React, { useMemo, useState } from 'react';
-import { FuelRecord, Language } from '../types';
-import { TRANSLATIONS, formatCurrency, getLocalDate } from '../constants';
+import { FuelRecord, Language } from '../types.ts';
+import { TRANSLATIONS, formatCurrency, getLocalDate } from '../constants.ts';
 import { 
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar 
 } from 'recharts';

@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { GoogleGenAI } from "@google/genai";
-import { FuelRecord, Language } from '../types';
-import { TRANSLATIONS } from '../constants';
+import { FuelRecord, Language } from '../types.ts';
+import { TRANSLATIONS } from '../constants.ts';
 import { Sparkles, Loader2, AlertTriangle, TrendingUp, Lightbulb } from 'lucide-react';
 
 interface AIAnalysisProps {

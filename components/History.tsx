@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { FuelRecord, Language } from '../types';
-import { TRANSLATIONS, formatCurrency } from '../constants';
+import { FuelRecord, Language } from '../types.ts';
+import { TRANSLATIONS, formatCurrency } from '../constants.ts';
 import { Edit2, Trash2, Search, Droplet, Gauge } from 'lucide-react';
 
 interface HistoryProps {

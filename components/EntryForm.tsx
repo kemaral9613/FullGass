@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { FuelRecord, Language } from '../types';
-import { TRANSLATIONS, INITIAL_RECORD, formatCurrency } from '../constants';
+import { FuelRecord, Language } from '../types.ts';
+import { TRANSLATIONS, INITIAL_RECORD, formatCurrency } from '../constants.ts';
 import { Save, X } from 'lucide-react';
 
 interface EntryFormProps {

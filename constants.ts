@@ -1,5 +1,5 @@
 
-import { Language, TranslationKey } from './types';
+import { Language, TranslationKey } from './types.ts';
 
 export const TRANSLATIONS: Record<Language, Record<TranslationKey | string, string>> = {
   es: {

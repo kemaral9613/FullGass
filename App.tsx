@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { FuelRecord, Language, Theme, View } from './types';
-import { TRANSLATIONS } from './constants';
-import Dashboard from './components/Dashboard';
-import EntryForm from './components/EntryForm';
-import History from './components/History';
-import Settings from './components/Settings';
-import AIAnalysis from './components/AIAnalysis';
+import { FuelRecord, Language, Theme, View } from './types.ts';
+import { TRANSLATIONS } from './constants.ts';
+import Dashboard from './components/Dashboard.tsx';
+import EntryForm from './components/EntryForm.tsx';
+import History from './components/History.tsx';
+import Settings from './components/Settings.tsx';
+import AIAnalysis from './components/AIAnalysis.tsx';
 import { LayoutDashboard, PlusCircle, History as HistoryIcon, Settings as SettingsIcon, Fuel, Sparkles } from 'lucide-react';
 
 const App: React.FC = () => {

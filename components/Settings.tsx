@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import { FuelRecord, Language, Theme } from '../types';
-import { TRANSLATIONS } from '../constants';
+import { FuelRecord, Language, Theme } from '../types.ts';
+import { TRANSLATIONS } from '../constants.ts';
 import { Moon, Sun, Globe, Download, Upload, AlertTriangle } from 'lucide-react';
 
 interface SettingsProps {
